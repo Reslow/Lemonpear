@@ -106,31 +106,40 @@ margin-right: auto;}
   margin-bottom: 100px;
 }
 .project{
-  background-color: #fffffff5;
+  background-color: #ffffffec;
   color: rgb(29, 27, 27);
   box-shadow: 0 4px 8px 0 rgba(93, 92, 92, 0.2);
   transition: 0.3s;
   margin-right: auto;
   margin-left: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   margin-top:20px;
   margin-bottom: 30px;
-  min-width: 100%;
+  padding:20px;
+  max-width: 100%;
+  min-height: 1000px;;
+}
+
+.projectR{
+  padding:50px;;
+
 }
 
 .project img{
+
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding:10px;
+  padding-top:40px;
+  padding-bottom:30px;
 }
 
-.projectText{
-  max-width: 30%;
+.projectL{
   margin-right: auto;
   margin-left: auto;
+  padding:20px;
 }
 
 .project p h2{
