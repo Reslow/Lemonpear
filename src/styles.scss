@@ -1,6 +1,6 @@
 $dark: rgb(24, 22, 22);
 $light: rgb(235, 235, 235);
-$blue:#171a2a;
+$blue: #171a2a;
 
 body {
   max-width: 100%;
@@ -19,7 +19,7 @@ body {
     linear-gradient(336deg, rgba(247, 59, 59, 0.8), rgba(0, 0, 255, 0) 70.71%);
   color: $dark;
   font-family: "Open Sans", sans serif;
-  margin-bottom:0px;
+  margin-bottom: 0px;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -27,7 +27,7 @@ body {
 
 .main {
   color: rgb(51, 48, 48);
-  flex:1;
+  flex: 1;
 }
 
 #header {
@@ -38,18 +38,12 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-#first {
-  padding-right: 40px;
-}
-#second {
-  justify-content: right;
-}
+
 
 #mainmenu {
   display: flex;
   flex-direction: row;
   padding: 15px;
-  
 }
 
 button {
@@ -68,22 +62,22 @@ button {
   padding-bottom: 10px;
   margin-bottom: 15px;
   padding-top: 10px;
-
 }
 #proMenu {
   padding-top: 40px;
   display: flex;
   flex-direction: row;
-margin-right: auto;
-margin-left: auto;
-justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
 }
 
 h1 {
   font-size: 48px;
+
 }
 
-h2{
+h2 {
   font-size: 24px;
 }
 
@@ -91,77 +85,109 @@ p {
   font-size: 18px;
 }
 
-#intro{
-  max-width:40%;
+#intro {
+  max-width: 40%;
   color: $blue;
-  margin-top:200px;
+  margin-top: 200px;
   text-align: center;
   font-weight: bolder;
-  padding-bottom:20px;
+  padding-bottom: 20px;
   margin-left: auto;
-margin-right: auto;}
+  margin-right: auto;
+}
 
-.projects{
+.projects {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.project{
+
+.project {
+  padding-bottom:100px;
+  padding-top:100px;
+
   background-color: #ffffffec;
   color: rgb(29, 27, 27);
   box-shadow: 0 4px 8px 0 rgba(93, 92, 92, 0.2);
   transition: 0.3s;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  max-width: 100%;
+  min-height: 1000px;
   display: flex;
   flex-direction: row;
-  text-align: center;
-  margin-top:20px;
-  margin-bottom: 30px;
-  padding:20px;
+}
+
+.containerB {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.projectR {
+  max-width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.project img {
   max-width: 100%;
-  min-height: 1000px;;
-}
-
-.projectR{
-  padding:50px;;
-
-}
-
-.project img{
-
-  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-top:40px;
-  padding-bottom:30px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
-.projectL{
-  margin-right: auto;
-  margin-left: auto;
-  padding:20px;
+.projectL {
+  max-width: 80%;
+ 
+  display: flex;
+  flex-direction: column;
+  padding:0px;
 }
 
-.project p h2{
+.project p h2 {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
 }
 
-footer{
+.process {
+  margin: auto;
+  max-width: 100%;
+}
+
+
+
+.caseTag {
+  color: rgb(105, 117, 249);
+  transform: rotate(-90deg);
+  font-size: 75px;
+  padding-bottom: 30px;
+ 
+}
+
+table {
+  margin: 0px;
+}
+footer {
   min-width: 100%;
   background-color: $blue;
   margin-bottom: 0px;
   min-height: 500px;
-  color:#ffffff;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 0px;
 }
-#about{
-  padding:30px;
+#about {
+  padding: 30px;
 }
-#contact{
+#contact {
   padding-right: 30px;
 }
