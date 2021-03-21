@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/824cc305-62c6-470c-b175-9b0ef68f6a54/deploy-status)](https://app.netlify.com/sites/dev-card/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b494bce4-785d-43c4-9831-c2f9f39805dd/deploy-status)](https://app.netlify.com/sites/strawberry-d67ba/deploys)
 
 # Lemonpear
 
