@@ -37,6 +37,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%
+
 }
 
 
@@ -48,10 +52,9 @@ body {
 
 button {
   font-size: 24px;
-  color: $blue;
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: 2px solid $blue;
+  color: white;
+  background-color: rgba(24, 22, 22, 0.296);
+  border: 5px solid white;
   border-radius: 5px;
   cursor: pointer;
   overflow: hidden;
@@ -87,7 +90,7 @@ p {
 
 #intro {
   max-width: 40%;
-  color: $blue;
+color: #171a2ad9;
   margin-top: 200px;
   text-align: center;
   font-weight: bolder;
@@ -104,6 +107,9 @@ p {
 .project {
   padding-bottom:100px;
   padding-top:100px;
+  padding-left:150px;
+  padding-right:150px;
+
 
   background-color: #ffffffec;
   color: rgb(29, 27, 27);
@@ -113,7 +119,7 @@ p {
   margin-left: auto;
   margin-top: 20px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
   max-width: 100%;
   min-height: 1000px;
   display: flex;
@@ -127,7 +133,7 @@ p {
 
 
 .projectR {
-  max-width: 40%;
+  max-width: 50%;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -135,7 +141,7 @@ p {
 }
 
 .project img {
-  max-width: 100%;
+  max-width: 70%;
   margin-right: auto;
   margin-left: auto;
   padding-top: 40px;
@@ -143,11 +149,11 @@ p {
 }
 
 .projectL {
-  max-width: 80%;
- 
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   padding:0px;
+  margin-right: 100px;;
 }
 
 .project p h2 {
@@ -157,22 +163,26 @@ p {
 }
 
 .process {
-  margin: auto;
+  margin-top:0px;
+  margin-bottom: 0px;
+  padding:0px;
   max-width: 100%;
+  margin-top:30px;
 }
 
 
 
-.caseTag {
-  color: rgb(105, 117, 249);
-  transform: rotate(-90deg);
-  font-size: 75px;
-  padding-bottom: 30px;
- 
-}
 
 table {
-  margin: 0px;
+  text-align: center;
+  padding:0px;
+}
+
+td{
+  padding-bottom: 0px;
+  padding-top: 0px;
+
+  
 }
 footer {
   min-width: 100%;
@@ -181,13 +191,51 @@ footer {
   min-height: 500px;
   color: #ffffff;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin-bottom: 0px;
+
 }
-#about {
-  padding: 30px;
+
+
+
+#contactInfo{
+  display: flex;
+  flex-direction: row;
+  padding-top:20px;
+  
+  
+  
 }
+.link p {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0px;
+  
+}
+
 #contact {
-  padding-right: 30px;
+  max-width: 30%;
+  padding-top:100px;
+ 
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+ padding-bottom: 200px;;
+  
+
+}
+.aboutHeadline{
+  display: flex;
+  flex-direction: row;
+  max-width: 100;
+}
+
+.aboutText{
+  padding-bottom: 30px;;
+}
+
+.aboutCon{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
