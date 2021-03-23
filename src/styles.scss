@@ -7,16 +7,16 @@ body {
   max-height: 100%;
   background-attachment: fixed;
   background-image: linear-gradient(
-      217deg,
-      rgba(232, 140, 123, 0.8),
-      rgba(255, 0, 0, 0) 70.71%
-    ),
-    linear-gradient(
-      117deg,
-      rgba(132, 134, 243, 0.89),
-      rgba(0, 255, 0, 0) 70.71%
-    ),
-    linear-gradient(336deg, rgba(221, 127, 106, 0.8), rgba(0, 0, 255, 0) 70.71%);
+        150deg,
+        rgba(252, 160, 144, 0.981),
+        rgba(255, 113, 113, 0.844) 70.71%
+      ),
+      linear-gradient(
+        230deg,
+        rgba(253, 100, 89, 0.89),
+        rgba(0, 255, 0, 0) 70.71%
+      ),
+      linear-gradient(115deg, rgba(255, 192, 55, 0.8), rgba(0, 0, 255, 0.309) 70.71%);
   color: $dark;
   font-family: "Open Sans", sans serif;
   margin-bottom: 0px;
@@ -33,7 +33,7 @@ body {
     max-width: 100ww;
 
     color: $blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI''Open Sans', Helvetica Neue, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,12 +42,15 @@ body {
   }
 
   #mainmenu {
+    position: fixed; top: 0; right: 0;
     display: flex;
     flex-direction: row;
-    padding-top:15px;
+    padding-top: 15px;
   }
 
   button {
+  font-family: "Open Sans", sans serif;
+
     font-size: 24px;
     color: white;
     background-color: rgba(24, 22, 22, 0.296);
@@ -62,9 +65,7 @@ body {
     padding-bottom: 10px;
     margin-bottom: 15px;
     padding-top: 10px;
-    min-width:50%;
- 
-   
+    min-width: 50%;
   }
 
   #proMenu {
@@ -82,10 +83,12 @@ body {
 
   h2 {
     font-size: 24px;
+    margin:0px;
   }
 
   p {
     font-size: 18px;
+    margin-bottom: 10px;
   }
 
   #intro {
@@ -194,8 +197,7 @@ body {
   }
 
   #contactInfo {
-    display: flex;
-    flex-direction: row;
+  
     padding-top: 20px;
   }
 
@@ -206,23 +208,31 @@ body {
   }
 
   #about {
-    max-width: 30%;
+    max-width: 100%;
     padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 200px;
+    align-items: flex-end;
   }
 
-  .aboutHeadline {
+  .aboutCon{
     display: flex;
     flex-direction: row;
-    max-width: 100;
+    align-items: flex-end;
   }
-
+  
+  
   .aboutText {
-    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    padding-right:100px;
+    
   }
 
   .aboutCon {
@@ -230,20 +240,39 @@ body {
     margin-right: auto;
     justify-content: center;
   }
+  
+  img.iconMethods {
+    max-width: 40px;
+  }
+
+  img.arrow {
+    max-width: 10px;
+  }
+
+  
+
 
   @media (max-width: 900px) {
-
-.body{ 
-  min-width:100%;
-}
+    background-image: linear-gradient(
+        150deg,
+        rgba(252, 160, 144, 0.981),
+        rgba(255, 113, 113, 0.844) 70.71%
+      ),
+      linear-gradient(
+        230deg,
+        rgba(255, 144, 41, 0.89),
+        rgba(0, 255, 0, 0) 70.71%
+      ),
+      linear-gradient(115deg, rgba(255, 192, 55, 0.8), rgba(0, 0, 255, 0.309) 70.71%);
 
     p {
       max-width: 100%;
     }
 
-    h1{
-      margin-top:00px;
+    h1 {
+      margin-top: 00px;
     }
+ 
 
     button {
       margin-bottom: 20px;
@@ -262,7 +291,7 @@ body {
     .project {
       display: flex;
       flex-direction: column;
-      padding:0px;
+      padding: 0px;
     }
 
     .containerB {
@@ -275,8 +304,8 @@ body {
       display: flex;
       flex-direction: column;
       padding: 0px;
-      padding-bottom:50px;
-      margin:10px;
+      padding-bottom: 50px;
+      margin: 10px;
     }
 
     .project img {
@@ -288,25 +317,21 @@ body {
       display: flex;
       flex-direction: column;
       padding: 0px;
-      margin:10px;
-
+      margin: 10px;
     }
 
     .process {
       max-width: 100%;
-      margin-top:0px;
+      margin-top: 0px;
     }
 
-    img.iconMethods{
-      max-width: 40px;
-    
+    img.iconMethods {
+      max-width: 60px;
     }
 
-    img.arrow{
+    img.arrow {
       max-width: 10px;
     }
-
-   
 
     footer {
       min-width: 100%;
@@ -324,6 +349,17 @@ body {
 
     .aboutHeadline {
       max-width: 100;
+    }
+    .aboutCon{
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .aboutText {
+      display: flex;
+      flex-direction: column;
+      font-weight: bolder;
+      padding-right: 0px;
     }
   }
 }
