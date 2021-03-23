@@ -252,7 +252,7 @@ body {
     max-width: 10px;
   }
 
-  .art {
+ .art {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -263,7 +263,7 @@ body {
 
   .art img {
     max-width: 25%;
-  }
+  } 
 
   @media (max-width: 900px) {
     background-image: linear-gradient(
@@ -275,17 +275,18 @@ body {
         20deg,
         rgba(255, 144, 41, 0.89),
         rgba(0, 255, 0, 0) 70.71%
-      ),
-      linear-gradient(
-        115deg,
-        rgba(255, 192, 55, 0.8),
-        rgba(0, 0, 255, 0.309) 70.71%
-      );
-
-    p {
-      max-width: 100%;
-    }
-
+        ),
+        linear-gradient(
+          115deg,
+          rgba(255, 192, 55, 0.8),
+          rgba(0, 0, 255, 0.309) 70.71%
+          );
+          
+          p {
+            max-width: 100%;
+          }
+          
+        h2{  font-size: 20px;}
     h1 {
       margin-top: 00px;
     }
@@ -313,7 +314,7 @@ body {
       padding: 0px;
       max-width: 100%;
       padding-bottom: 0px;
-      padding-top: 0px;
+      padding-top: 50px;
       padding-left: 0px;
       padding-right: 0px;
     }
@@ -368,6 +369,8 @@ body {
 
     #about {
       max-width: 90%;
+      padding-top:100px;
+      padding-bottom: 80px;;
     }
 
     .aboutHeadline {
@@ -380,8 +383,20 @@ body {
     .aboutText {
       display: flex;
       flex-direction: column;
-      font-weight: bolder;
       padding-right: 0px;
     }
+    .art {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+    }
+  
+    .art img {
+      max-width: 100%;
+      padding-bottom: 30px;;
+    } 
   }
 }
