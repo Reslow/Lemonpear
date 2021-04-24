@@ -804,6 +804,11 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
+"@splidejs/splide@^2.4.21":
+  version "2.4.21"
+  resolved "https://registry.yarnpkg.com/@splidejs/splide/-/splide-2.4.21.tgz#ad1954d8d8822c9bfea0d3dc6a119358b88581ad"
+  integrity sha512-LdIwSnmNsGybCCnA3QG2dOeRv/rQl46jf7FflXxMGX0ADYWyL6UJHWJbMZvHBi5I67uRJY1ga/W+CvJ39nH26A==
+
 "@types/q@^1.5.1":
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"

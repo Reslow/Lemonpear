@@ -1,0 +1,54 @@
+
+#vetApp{
+  color:yellow;
+
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  max-width: 100%;
+  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.containerB {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectR {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  padding-bottom: 50px;
+  margin: 10px;
+}
+
+.project img {
+  max-width: 90%;
+}
+
+.projectL {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 10px;
+}
+
+.process {
+  max-width: 100%;
+  margin-top: 0px;
+}
+
+img.iconMethods {
+  max-width: 60px;
+}
+
+img.arrow {
+  max-width: 10px;
+}

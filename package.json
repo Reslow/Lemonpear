@@ -1,12 +1,13 @@
 {
   "name": "lemonpear",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "src/index.html",
   "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html --open"
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html --open"
   },
   "dependencies": {
+    "@splidejs/splide": "^2.4.21",
     "sass": "1.32.8"
   },
   "devDependencies": {
